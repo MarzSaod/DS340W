@@ -18,10 +18,10 @@ This is the code for our DS 340W research project. We ask whether a model that p
 
 | Notebook | What it does | Paper sections | Run time on a T4 GPU |
 |---|---|---|---|
-| `01_shortcut_tests.ipynb` | Locates the three collections, trains a file clue model, executes tests within and between collections, and quantifies the amount of Grad CAM heat that is within the lungs. | IV.C, V.B, V.C, V.D, Table V | about 50 to 70 minutes (our estimate) |
-| `02_reproduce_parent_paper.ipynb` | Reproduces the first parent paper with five frozen ImageNet networks, runs the lungs only input from the second parent paper, trains the file properties model, and fine tunes VGG19 | IV.B, V.A, V.B, Table IV | not timed |
-| `03_lung_guided_training.ipynb` | Our first proposed novel approach: a source balanced weights and the lung guided loss on frozen VGG19 and DenseNet201, which are evaluated on an unseen set | III, V.E, Table II, Table VI, Fig. 1 | about 42 minutes |
-| `04_lung_guided_fine_tuning.ipynb` | Our novel approach round 2: fine tunes the last block of VGG19 with a stricter penalty, and compares Grad CAM with attribution maps. | III.F, V.E, Table II, Fig. 2 | about 47 minutes |
+| `project midterm.ipynb` | Locates the three collections, trains a file clue model, executes tests within and between collections, and quantifies the amount of Grad CAM heat that is within the lungs. | IV.C, V.B, V.C, V.D, Table V | about 50 to 70 minutes (our estimate) |
+| `Week10Immplementation.ipynb` | Reproduces the first parent paper with five frozen ImageNet networks, runs the lungs only input from the second parent paper, trains the file properties model, and fine tunes VGG19 | IV.B, V.A, V.B, Table IV | not timed |
+| `Week11 Round1.ipynb` | Our first proposed novel approach: a source balanced weights and the lung guided loss on frozen VGG19 and DenseNet201, which are evaluated on an unseen set | III, V.E, Table II, Table VI, Fig. 1 | about 42 minutes |
+| `Week11 Round2 FineTune.ipynb` | Our novel approach round 2: fine tunes the last block of VGG19 with a stricter penalty, and compares Grad CAM with attribution maps. | III.F, V.E, Table II, Fig. 2 | about 47 minutes |
 
 ## How to run
 
