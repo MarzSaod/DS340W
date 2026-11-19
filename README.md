@@ -4,7 +4,7 @@
 
 Saod AlMarzooqi and Fahim Alfahim, The Pennsylvania State University, DS 340W, Group 21
 
-This is the code for our DS 340W research project. We ask whether a model that performs very well on a widely-used chest X ray dataset is actually reading the lungs or simply identifying the origin of the image file. The full paper is is [`Week 12 Final_Paper.pdf`](Week 12 Final Paper.pdf).
+This is the code for our DS 340W research project. We ask whether a model that performs very well on a widely-used chest X ray dataset is actually reading the lungs or simply identifying the origin of the image file. The full paper is is `Week 12 Final_Paper.pdf`
 
 ## Main findings
 
@@ -79,4 +79,5 @@ The full reference list is in the paper.
 
 ## Archive
 
-The `Notebooks` folder keeps our early notebooks from the first weeks of the course, when we were setting up the parent paper code and exploring the data. They are not needed to reproduce any result in the paper.
+The `Notebooks_old` folder keeps our early notebooks from the first weeks of the course, when we were setting up the parent paper code and exploring the data. They are not needed to reproduce any result in the paper.
+The `Archive` Keeps our parent papers as PDFs.
